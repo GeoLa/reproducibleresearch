@@ -71,7 +71,7 @@ The maximum number of steps in a 5-minute interval is `r maxinter`.
 
 ## Imputing missing values
 
-Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
+Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs).
 
 ```{r missing, echo=TRUE}
 tab <- sapply(data, function(x) sum(is.na(x)))
